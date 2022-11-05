@@ -1,0 +1,58 @@
+.info {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+  padding-bottom: 1.25rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0px;
+  width: 736px;
+  height: 19px;
+  margin-top: 64px;
+}
+
+.created {
+  width: 106px;
+  height: 17px;
+  font-size: 14px;
+  color: #4ea8de;
+}
+
+.concluded {
+  width: 78px;
+  height: 17px;
+  font-size: 14px;
+  color: #8284fa;
+}
+
+.createdContainer {
+  display: flex;
+  gap: 8px;
+  height: 19px;
+  padding: 0px;
+}
+
+.concludedContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 19px;
+  padding: 0px;
+}
+
+.quantity {
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+  color: #d9d9d9;
+  background-color: #333333;
+  border-radius: 8px;
+  padding: 2px 8px;
+  font-size: 12px;
+  gap: 10px;
+}

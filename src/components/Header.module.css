@@ -1,0 +1,20 @@
+.header {
+  background-color: #0d0d0d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12.5rem;
+}
+
+.rocketLogo {
+  width: 22px;
+  height: 36px;
+  margin-right: 5px;
+}
+
+.todoLogo {
+  width: 92px;
+  height: 48px;
+  margin-left: 5px;
+  margin-top: 10px;
+}

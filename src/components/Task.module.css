@@ -1,0 +1,29 @@
+.taskContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #262626;
+  border: 1px solid #333333;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.taskLabel {
+  width: 100%;
+  text-align: initial;
+  padding: 0px 12px;
+}
+.taskLabelChecked {
+  text-decoration: line-through;
+  color: #808080;
+}
+.taskInputCheckbox {
+  all: unset;
+  width: 0px;
+  background-color: red;
+  visibility: hidden;
+}
